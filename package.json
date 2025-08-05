@@ -1,0 +1,28 @@
+{
+  "name": "corpus-tools-call",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "NODE_ENV=production node --env-file .env.prod index.js",
+    "dev": "node --env-file .env.dev index.js"
+  },
+  "author": "The University of Queensland",
+  "contributors": [
+    "Alvin Sebastian (https://orcid.org/0000-0002-9086-1722)"
+  ],
+  "license": "GPL-3.0-or-later",
+  "description": "Creates an ro-crate excel spreadsheet from CALL postgres database",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Language-Research-Technology/corpus-tools-call.git"
+  },
+  "dependencies": {
+    "postgres": "^3.4.7",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "overrides": {
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  }
+}
