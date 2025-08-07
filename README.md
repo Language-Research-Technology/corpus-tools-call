@@ -16,5 +16,9 @@ echo CALL_PG_URL=postgres://user:pass@example.com:5432/dbname > .env.prod
 ```
 Run the tool:
 ```
+npm run dev
+```
+or
+```
 npm run prod
 ```
